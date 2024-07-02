@@ -1,5 +1,5 @@
 {
-  "name": "redis-monorepo",
+  "name": "tf-node-redis",
   "private": true,
   "workspaces": [
     "./packages/*"
@@ -21,5 +21,8 @@
     "tsx": "^4.7.0",
     "typedoc": "^0.25.7",
     "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.hi.inet/artifactory/api/npm/npm/"
   }
 }
